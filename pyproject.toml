@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "sem-qt"
-version = "2.0.5-1"
+name = "sem-qt6"
+version = "2.0.6"
 description = "Simple expense manager"
 authors = ["aangelone2 <adriano.angelone.work@gmail.com>"]
 license = "GPL v3"
@@ -23,7 +23,7 @@ mkdocstrings = {extras = ["python"], version = "^0.20"}
 mkdocs-material = "^9.1.19"
 
 [tool.poetry.scripts]
-sem-qt = "modules.main:main"
+sem-qt6 = "modules.main:main"
 
 [build-system]
 requires = ["poetry-core"]

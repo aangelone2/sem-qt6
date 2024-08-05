@@ -1,4 +1,4 @@
-# sem-qt
+# sem-qt6
 
 [![pyqt6](https://img.shields.io/badge/PyQt6-FF0000)](https://pypi.org/project/PyQt6/)
 [![sqlite](https://img.shields.io/badge/SQLite-FF0000)](https://www.sqlite.org/index.html)
@@ -10,7 +10,7 @@
 
 
 
-`sem-qt` (Simple Expense Manager in Qt) is a simple
+`sem-qt6` (Simple Expense Manager in Qt) is a simple
 Python utility for the management of domestic expenses.
 
 A streamlined Qt graphical interface allows
@@ -35,7 +35,7 @@ stored in SQLite databases.
 ## Imported libraries
 
 The following external libraries are imported in
-`sem-qt`, and required for its operation:
+`sem-qt6`, and required for its operation:
 
 - [PyQt6](https://www.riverbankcomputing.com/software/pyqt/)
   (GUI toolkit and Model/View interfaces)
@@ -45,7 +45,7 @@ The following external libraries are imported in
 
 ## Dependencies and Setup
 
-`sem-qt` is packaged with `poetry`: the command
+`sem-qt6` is packaged with `poetry`: the command
 
 ```
 $ poetry install
@@ -55,7 +55,7 @@ will setup a virtual environment will all required
 dependencies. The command
 
 ```
-$ poetry --directory <project directory> run sem-qt
+$ poetry --directory <project directory> run sem-qt6
 ```
 
 will execute the program.
@@ -84,4 +84,4 @@ URL [http://localhost:8000](http://localhost:8000).
 Most of the documentation (including all the information
 related to the UI and the statistical background) can be
 consulted on the [github
-wiki](https://github.com/aangelone2/sem-qt/wiki).
+wiki](https://github.com/aangelone2/sem-qt6/wiki).
